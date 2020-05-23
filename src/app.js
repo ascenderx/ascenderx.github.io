@@ -36,6 +36,7 @@ class Application {
   
   pause() {
     this._loop.pause();
+    this._draw();
   }
   
   resume() {

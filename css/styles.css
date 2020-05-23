@@ -73,6 +73,9 @@ div.content-wrapper {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  height: 100%;
+  overflow-x: none;
+  overflow-y: auto;
 }
 
 div.content {
