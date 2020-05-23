@@ -16,15 +16,19 @@ window.addEventListener('load', () => {
   let app = new Application(cvs);
   let timeout = null;
   
+  let isAppManuallyPaused = false;
   window.addEventListener('resize', () => {
     app.pause();
+    isAppResizing = true;
     resize();
     if (timeout !== null) {
       clearTimeout(timeout);
     }
     timeout = setTimeout(() => {
       app.resize();
-      app.resume();
+      if (!isAppManuallyPaused) {
+        app.resume();
+      }
       timeout = null;
     }, 500);
   });
@@ -52,7 +56,8 @@ window.addEventListener('load', () => {
     app.resume();
   }
   btBackground.addEventListener('click', () => {
-    app.isRunning = !app.isRunning;
+    isAppManuallyPaused = !isAppManuallyPaused;
+    app.isRunning = !isAppManuallyPaused;
     btBackground.innerText = (app.isRunning)
       ? 'Pause Background'
       : 'Resume Background';
