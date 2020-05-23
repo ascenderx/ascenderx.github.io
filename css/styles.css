@@ -68,6 +68,7 @@ canvas {
 }
 
 div.content-wrapper {
+  border: 2px solid red;
   max-width: 400px;
   margin: 0 auto;
   display: flex;
