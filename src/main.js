@@ -16,7 +16,10 @@ window.addEventListener('load', () => {
   let app = new Application(cvs);
   let timeout = null;
   
-  let isAppManuallyPaused = false;
+  let storage = new StorageHandler('local');
+  let isBackgroundPaused = (storage.hasItem('paused'))
+    ? storage.getItem('paused')
+    : false;
   window.addEventListener('resize', () => {
     app.pause();
     isAppResizing = true;
@@ -26,7 +29,7 @@ window.addEventListener('load', () => {
     }
     timeout = setTimeout(() => {
       app.resize();
-      if (!isAppManuallyPaused) {
+      if (!isBackgroundPaused) {
         app.resume();
       }
       timeout = null;
@@ -44,10 +47,6 @@ window.addEventListener('load', () => {
     divButtons.appendChild(anchor);
   }
   
-  let storage = new StorageHandler('local');
-  let isBackgroundPaused = (storage.hasItem('paused'))
-    ? storage.getItem('paused')
-    : false;
   let btBackground = document.getElementById('btBackground');
   btBackground.innerText = (isBackgroundPaused)
     ? 'Resume Background'
@@ -56,8 +55,8 @@ window.addEventListener('load', () => {
     app.resume();
   }
   btBackground.addEventListener('click', () => {
-    isAppManuallyPaused = !isAppManuallyPaused;
-    app.isRunning = !isAppManuallyPaused;
+    isBackgroundPaused = !isBackgroundPaused;
+    app.isRunning = !isBackgroundPaused;
     btBackground.innerText = (app.isRunning)
       ? 'Pause Background'
       : 'Resume Background';
