@@ -1,3 +1,6 @@
 [submodule "lib/UnicodeTransformer"]
 	path = lib/UnicodeTransformer
 	url = https://gist.github.com/ascenderx/216b7cea3655bfd1d4ecf7655fc83051
+[submodule "lib/Polygon-HTML5JS"]
+	path = lib/Polygon-HTML5JS
+	url = https://github.com/ascenderx/jspolygon.git
