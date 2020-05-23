@@ -9,8 +9,8 @@ window.addEventListener('load', () => {
   
   let cvs = document.getElementById('cvs');
   function resize() {
-    cvs.width = cvs.parentElement.offsetWidth;
-    cvs.height = cvs.parentElement.offsetHeight;
+    cvs.width = window.outerWidth;
+    cvs.height = window.outerHeight;
   }
   resize();
   let app = new Application(cvs);
