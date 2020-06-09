@@ -4,3 +4,6 @@
 [submodule "lib/Polygon-HTML5JS"]
 	path = lib/Polygon-HTML5JS
 	url = https://github.com/ascenderx/jspolygon.git
+[submodule "lib/TreeFractal-HTML5JS"]
+	path = lib/TreeFractal-HTML5JS
+	url = https://github.com/ascenderx/jstreefractal.git
