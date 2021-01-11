@@ -10,3 +10,6 @@
 [submodule "lib/ColorSelector"]
 	path = lib/ColorSelector
 	url = https://gist.github.com/3a5fe7687a433d2ea2fef21cda5244be.git
+[submodule "lib/AudioKeyboard"]
+	path = lib/AudioKeyboard
+	url = git@github.com:ascenderx/audiokeyboard-ts-web
