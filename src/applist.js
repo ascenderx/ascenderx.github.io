@@ -3,5 +3,6 @@ const APPS = {
   'Tree Fractal Generator': 'lib/TreeFractal-HTML5JS/index.html',
   'Unicode Transformer': 'lib/UnicodeTransformer/unicode-transformer.html',
   'Color Selector': 'lib/ColorSelector/index.html',
+  'Audio Keyboard': 'lib/AudioKeyboard/index.html',
 };
 
