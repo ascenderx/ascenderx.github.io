@@ -10,3 +10,9 @@
 [submodule "lib/Japanese-Kanji-Web"]
 	path = lib/Japanese-Kanji-Web
 	url = https://github.com/ascenderx/japanese-kanji-web
+[submodule "lib/ColorSelector"]
+	path = lib/ColorSelector
+	url = https://gist.github.com/3a5fe7687a433d2ea2fef21cda5244be.git
+[submodule "lib/AudioKeyboard"]
+	path = lib/AudioKeyboard
+	url = https://github.com/ascenderx/audiokeyboard-ts-web.git
