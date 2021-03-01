@@ -7,3 +7,6 @@
 [submodule "lib/TreeFractal-HTML5JS"]
 	path = lib/TreeFractal-HTML5JS
 	url = https://github.com/ascenderx/jstreefractal.git
+[submodule "lib/Japanese-Kanji-Web"]
+	path = lib/Japanese-Kanji-Web
+	url = https://github.com/ascenderx/japanese-kanji-web
