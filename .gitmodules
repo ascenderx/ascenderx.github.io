@@ -7,6 +7,9 @@
 [submodule "lib/TreeFractal-HTML5JS"]
 	path = lib/TreeFractal-HTML5JS
 	url = https://github.com/ascenderx/jstreefractal.git
+[submodule "lib/Japanese-Kanji-Web"]
+	path = lib/Japanese-Kanji-Web
+	url = https://github.com/ascenderx/japanese-kanji-web
 [submodule "lib/ColorSelector"]
 	path = lib/ColorSelector
 	url = https://gist.github.com/3a5fe7687a433d2ea2fef21cda5244be.git
