@@ -13,3 +13,6 @@
 [submodule "lib/AudioKeyboard"]
 	path = lib/AudioKeyboard
 	url = https://github.com/ascenderx/audiokeyboard-ts-web.git
+[submodule "lib/WebGLExample"]
+	path = lib/WebGLExample
+	url = https://gist.github.com/ee80b7c947691b0b58eadf88fea54082.git
