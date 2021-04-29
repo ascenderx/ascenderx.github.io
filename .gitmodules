@@ -1,6 +1,6 @@
 [submodule "lib/UnicodeTransformer"]
 	path = lib/UnicodeTransformer
-	url = https://gist.github.com/ascenderx/216b7cea3655bfd1d4ecf7655fc83051
+	url = https://gist.github.com/ascenderx/216b7cea3655bfd1d4ecf7655fc83051.git
 [submodule "lib/Polygon-HTML5JS"]
 	path = lib/Polygon-HTML5JS
 	url = https://github.com/ascenderx/jspolygon.git
@@ -9,13 +9,11 @@
 	url = https://github.com/ascenderx/jstreefractal.git
 [submodule "lib/Japanese-Kanji-Web"]
 	path = lib/Japanese-Kanji-Web
-	url = https://github.com/ascenderx/japanese-kanji-web
+	url = https://github.com/ascenderx/japanese-kanji-web.git
 [submodule "lib/ColorSelector"]
 	path = lib/ColorSelector
-	url = https://gist.github.com/3a5fe7687a433d2ea2fef21cda5244be.git
-[submodule "lib/AudioKeyboard"]
-	path = lib/AudioKeyboard
-	url = https://github.com/ascenderx/audiokeyboard-ts-web.git
-[submodule "lib/WebGLExample"]
-	path = lib/WebGLExample
-	url = https://gist.github.com/ee80b7c947691b0b58eadf88fea54082.git
+  url = https://gist.github.com/3a5fe7687a433d2ea2fef21cda5244be.git
+
+[submodule "lib/WebGLExamples"]
+	path = lib/WebGLExamples
+	url = https://github.com/ascenderx/webglexamples-js-web.git
