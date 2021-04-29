@@ -5,6 +5,5 @@ const APPS = {
   'WebGL Complex Functions': 'lib/WebGLExample/index.html',
   'Unicode Transformer': 'lib/UnicodeTransformer/unicode-transformer.html',
   'Color Selector': 'lib/ColorSelector/index.html',
-  'Audio Keyboard': 'lib/AudioKeyboard/index.html',
 };
 
